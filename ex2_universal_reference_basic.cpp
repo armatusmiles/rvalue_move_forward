@@ -1,14 +1,9 @@
 #include <assert.h>
 #include <iostream>
-#include <typeinfo>
-
 using namespace std;
 
 template <typename T>
-void f(T&& param)
-{
-
-}
+void f(T&& param) { }
 
 int main()
 {
