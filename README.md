@@ -1,0 +1,1 @@
+### There are examples take from book "Effective Modern C++" by Scott Meyers with my changes and addition for introduction into "Rvalue References, Move Semantics, and Perfect Forwarding"
