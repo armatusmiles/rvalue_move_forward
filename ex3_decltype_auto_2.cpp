@@ -21,9 +21,11 @@ decltype(auto) authAndAccess3(Container&& c, Index i) // c is universal referenc
     return std::forward<Container>(c)[i];
 }
 
-auto fabricMethod() {
+auto fabricMethod()
+{
     return vector{1,2,3};
 }
+
 int main()
 {
     vector v = {1,2,3}; // C++17 feature
