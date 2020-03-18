@@ -35,6 +35,7 @@ int main()
 
     foo2(static_cast<A&&>(a5)); // pass object by rvalue reference. (Constructors don't not called)
     foo2(std::move(a6)); // pass object by rvalue reference. (Constructors don't not called)
+    foo2(A()); //  pass object by rvalue reference. Call constructor only
     
     foo3(a7); // pass object by lvalue reference
     foo3(std::move(a7)); // pass object by rvalue reference
