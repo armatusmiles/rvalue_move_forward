@@ -15,10 +15,10 @@ int main()
     Widget w; // call constructor
     const Widget& cw = w;
     
-    // It call copy
+    // It calls copy
     auto mw1 = cw;
 
     // It don't call copy constructor, just assign reference.
     // decltype(auto) == const Widget& 
-    decltype(auto) mw2 = cw; 
+    decltype(auto) mw2 = cw;
 }
